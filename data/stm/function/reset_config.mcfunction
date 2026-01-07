@@ -48,6 +48,7 @@ data remove storage stm:data tools
 data modify storage stm:data tools.axe set value []
 function stm:add_tool {namespace: "minecraft", id: "wooden_axe", category: "axe"}
 function stm:add_tool {namespace: "minecraft", id: "stone_axe", category: "axe"}
+function stm:add_tool {namespace: "minecraft", id: "copper_axe", category: "axe"}
 function stm:add_tool {namespace: "minecraft", id: "iron_axe", category: "axe"}
 function stm:add_tool {namespace: "minecraft", id: "golden_axe", category: "axe"}
 function stm:add_tool {namespace: "minecraft", id: "diamond_axe", category: "axe"}
@@ -98,6 +99,7 @@ scoreboard objectives add stm.b.minecraft.stripped_crimson_hyphae minecraft.mine
 scoreboard objectives add stm.b.minecraft.stripped_warped_hyphae minecraft.mined:minecraft.stripped_warped_hyphae
 scoreboard objectives add stm.t.minecraft.wooden_axe minecraft.used:minecraft.wooden_axe
 scoreboard objectives add stm.t.minecraft.stone_axe minecraft.used:minecraft.stone_axe
+scoreboard objectives add stm.t.minecraft.copper_axe minecraft.used:minecraft.copper_axe
 scoreboard objectives add stm.t.minecraft.iron_axe minecraft.used:minecraft.iron_axe
 scoreboard objectives add stm.t.minecraft.golden_axe minecraft.used:minecraft.golden_axe
 scoreboard objectives add stm.t.minecraft.diamond_axe minecraft.used:minecraft.diamond_axe
