@@ -1,0 +1,13 @@
+execute if data storage stm:data temp1{leaf_type: "oak_leaves"} if block ~ ~ ~ minecraft:oak_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "spruce_leaves"} if block ~ ~ ~ minecraft:spruce_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "birch_leaves"} if block ~ ~ ~ minecraft:birch_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "jungle_leaves"} if block ~ ~ ~ minecraft:jungle_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "acacia_leaves"} if block ~ ~ ~ minecraft:acacia_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "dark_oak_leaves"} if block ~ ~ ~ minecraft:dark_oak_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "mangrove_leaves"} if block ~ ~ ~ minecraft:mangrove_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "cherry_leaves"} if block ~ ~ ~ minecraft:cherry_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "pale_oak_leaves"} if block ~ ~ ~ minecraft:pale_oak_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "azalea_leaves"} if block ~ ~ ~ minecraft:azalea_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "flowering_azalea_leaves"} if block ~ ~ ~ minecraft:flowering_azalea_leaves run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "nether_wart_block"} if block ~ ~ ~ minecraft:nether_wart_block run function stm:execute_mine_leaves
+execute if data storage stm:data temp1{leaf_type: "warped_wart_block"} if block ~ ~ ~ minecraft:warped_wart_block run function stm:execute_mine_leaves
